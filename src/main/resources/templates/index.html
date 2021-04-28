@@ -5,6 +5,13 @@
      
 </head>
 <body>
-    <div><h3 th:inline="text"></h3>Welcome [[${#httpServletRequest.remoteUser}]]</div>
+    <div>
+        <h3 th:inline="text"></h3>Welcome [[${#httpServletRequest.remoteUser}]]
+    </div>
+    <form th:action="@{/logout}" method="POST">
+        <input type="submit" value="Logout"/>
+
+    </form>
+
 </body>
 </html>
