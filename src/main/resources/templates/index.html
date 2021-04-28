@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+     
+</head>
+<body>
+    <div><h3 th:inline="text"></h3>Welcome [[${#httpServletRequest.remoteUser}]]</div>
+</body>
+</html>
