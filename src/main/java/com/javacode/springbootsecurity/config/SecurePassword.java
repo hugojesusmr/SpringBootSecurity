@@ -1,4 +1,4 @@
-package com.javacode.springbootsecurity.basic;
+package com.javacode.springbootsecurity.config;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
